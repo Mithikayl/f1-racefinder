@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'Formula 1';
+    src: url(Formula1-Regular.ttf);
+}
+
+body {
+    font-family: 'Formula 1';
+    color: #fff;
+    background: #000;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+}
+
+h1.racename {
+    font-size: 50px;
+    margin: 0px;
+}
+
+h2.circuitname {
+    margin: 0px;
+}
+
+.form {
+    font-family: 'Formula 1';
+    width: 9vw;
+}
+
+.btnfinder {
+    background: #fff;
+    color: #000;
+    padding: 5px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: 'Formula 1';
+    width: 10vw;
+}
