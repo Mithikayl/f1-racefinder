@@ -1,7 +1,7 @@
 {
   "main.css": "/f1-data-app/static/css/main.bc84d8dd.chunk.css",
-  "main.js": "/f1-data-app/static/js/main.ede2c850.chunk.js",
-  "main.js.map": "/f1-data-app/static/js/main.ede2c850.chunk.js.map",
+  "main.js": "/f1-data-app/static/js/main.46e024a5.chunk.js",
+  "main.js.map": "/f1-data-app/static/js/main.46e024a5.chunk.js.map",
   "static/js/1.a58ce889.chunk.js": "/f1-data-app/static/js/1.a58ce889.chunk.js",
   "static/js/1.a58ce889.chunk.js.map": "/f1-data-app/static/js/1.a58ce889.chunk.js.map",
   "runtime~main.js": "/f1-data-app/static/js/runtime~main.4ba122d1.js",
@@ -9,6 +9,6 @@
   "static/media/index.css": "/f1-data-app/static/media/Formula1-Regular.ea4e4ee4.ttf",
   "static/css/main.bc84d8dd.chunk.css.map": "/f1-data-app/static/css/main.bc84d8dd.chunk.css.map",
   "index.html": "/f1-data-app/index.html",
-  "precache-manifest.47e1e7b7aa5605b46a9ce377623bfc0f.js": "/f1-data-app/precache-manifest.47e1e7b7aa5605b46a9ce377623bfc0f.js",
+  "precache-manifest.ef9edbad84c002c3d2faf312c4cff77f.js": "/f1-data-app/precache-manifest.ef9edbad84c002c3d2faf312c4cff77f.js",
   "service-worker.js": "/f1-data-app/service-worker.js"
 }
