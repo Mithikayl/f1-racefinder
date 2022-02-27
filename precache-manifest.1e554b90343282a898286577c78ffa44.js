@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/f1-data-app/static/media/Formula1-Regular.ea4e4ee4.ttf"
   },
   {
-    "revision": "4a247849cd49912c157132af66d9951b",
+    "revision": "fd0bd8f406363c0932b8b92b3870825a",
     "url": "/f1-data-app/index.html"
   }
 ];
