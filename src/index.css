@@ -39,4 +39,17 @@ h2.circuitname {
     cursor: pointer;
     font-family: 'Formula 1';
     width: 10vw;
+    -webkit-appearance: none;
+    min-width: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    .btnfinder {
+        width: 20vw;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+}
+    
