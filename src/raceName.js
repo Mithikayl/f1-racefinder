@@ -17,6 +17,10 @@ export class RacedName extends React.Component {
 
 
     onClickButton1 = () => {
+        this.setState({
+            raceName: ' ',
+            circuitName: ''
+        })
         getData(year)
             .then(data => {
                 console.log(data)
