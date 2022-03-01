@@ -3,11 +3,49 @@
     src: url(Formula1-Regular.ttf);
 }
 
+html, #root,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+
+::selection {
+    background: #FF1801;
+    color: black;   
+}
+
 body {
     font-family: 'Formula 1';
     color: #fff;
     background: #000;
     text-align: center;
+    /* background: url(https://www.formula1.com/content/dam/fom-website/sutton/2019/Monaco/Sunday/1017527543-LAT-20190526-SNE19261.jpg) no-repeat center center fixed; */
+    /* -webkit-background-size: cover; */
+    /* -moz-background-size: cover; */
+    /* -o-background-size: cover; */
+    /* background-size: cover; */
+}
+
+#container {
+   height:100%;
+   position:relative;
+}
+
+#header {
+   padding:10px;
+}
+#body {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   text-align: left;
+   font-size: 25px;
 }
 
 h1 {
@@ -17,7 +55,7 @@ h1 {
 
 h1.racename {
     font-size: 50px;
-    margin: 0px;
+    margin-bottom: 0px;
 }
 
 h2.circuitname {
@@ -29,18 +67,55 @@ h2.circuitname {
     width: 9vw;
 }
 
+a.githubLink {
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+.footerText {
+    margin-left: 3px;
+}
+
+a.githubLink::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  a.githubLink:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+  a.githubLink::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: #FF1801;
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+  
+
 .btnfinder {
-    background: #fff;
-    color: #000;
+    color: white;
+    background: rgba(0, 0, 0, 0);
     padding: 5px;
     margin: 10px;
     font-size: 15px;
-    font-weight: bold;
+    /* font-weight: ; */
     cursor: pointer;
     font-family: 'Formula 1';
     width: 10vw;
     -webkit-appearance: none;
     min-width: 10px;
+    border: 2px solid white;
+}
+
+.btnfinder:hover {
+    filter: brightness(80%);
 }
 
 @media screen and (max-width: 768px) {
@@ -51,5 +126,31 @@ h2.circuitname {
     h1 {
         font-size: 50px;
     }
-}
+
+    h1.racename {
+        font-size: 40px;
+    }
     
+    h2.circuitname {
+        margin: 0px;
+        font-size: 30px;
+    }
+
+    .footerText {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+}
+
+footer {
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+}
+
+input {
+    font-family: 'Formula 1';
+    width: 10vw;
+    text-align: center;
+}
