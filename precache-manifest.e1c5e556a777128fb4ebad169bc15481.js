@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "1ae860744015f4d2ecc0",
-    "url": "/f1-data-app/static/css/main.ce61a525.chunk.css"
+    "revision": "e96ffb3fe29d2f6246d1",
+    "url": "/f1-data-app/static/css/main.cf0da0ab.chunk.css"
   },
   {
-    "revision": "1ae860744015f4d2ecc0",
-    "url": "/f1-data-app/static/js/main.1ae86074.chunk.js"
+    "revision": "e96ffb3fe29d2f6246d1",
+    "url": "/f1-data-app/static/js/main.e96ffb3f.chunk.js"
   },
   {
     "revision": "a58ce88936aea7ba4cc1",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/f1-data-app/static/media/Formula1-Regular.ea4e4ee4.ttf"
   },
   {
-    "revision": "85f718dc47f8128201e4d7166c507cbe",
+    "revision": "e9f4f709bfaaa9bd0a74814cc20c44dd",
     "url": "/f1-data-app/index.html"
   }
 ];
