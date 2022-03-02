@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/f1-data-app/precache-manifest.e1c5e556a777128fb4ebad169bc15481.js"
+  "/f1-racefinder/precache-manifest.71ec7df67b71b56fa5e3f4b2f80b3441.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/f1-data-app/index.html", {
+workbox.routing.registerNavigationRoute("/f1-racefinder/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
